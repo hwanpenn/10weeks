@@ -3,12 +3,14 @@ import { Platform, StatusBar, StyleSheet, View,ScrollView,Image,Dimensions,Text,
 import { AppLoading, Asset, Font, Icon } from 'expo';
 import { AsyncStorage } from "react-native"
 import AppNavigator from './navigation/AppNavigator';
+import RootStack from './src/Routes';
+
 
 export default class App extends React.Component {
     state = {
         isLoadingComplete: false,
         isFirstOpen: false,
-        isLogin: true,
+        // isLogin: true,
     };
 
     async componentWillMount(){
@@ -18,12 +20,12 @@ export default class App extends React.Component {
                     this.setState({ isFirstOpen: true });
                 }
             })
-        AsyncStorage.getItem('userToken')
-            .then((value) => {
-                if(value===null){
-                    this.setState({ isLogin: false });
-                }
-            })
+        // AsyncStorage.getItem('userToken')
+        //     .then((value) => {
+        //         if(value===null){
+        //             this.setState({ isLogin: false });
+        //         }
+        //     })
     }
 
     render() {
@@ -70,58 +72,15 @@ export default class App extends React.Component {
                     </ScrollView>
                 );
             } else {
-                if(this.state.isLogin){
                     return (
                         <View style={styles.container}>
                             {Platform.OS === 'ios' && <StatusBar barStyle="default"/>}
-                            <AppNavigator/>
+                            {/*<AppNavigator/>*/}
+                            <RootStack />
                         </View>
                     );
-                }else {
-                    return (
-                        <View style={styles.loginContainer}>
-                            <View style={{marginTop: Platform.OS === "ios" ? 188 : 196,flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 103 : 85}}>
-                                <View style={{backgroundColor:"#16d4f1",borderWidth : 0,borderColor : "#fff",borderRadius : Platform.OS==="ios" ? 40: 50,width : 274,height : 47,overflow:"hidden"}} >
-                                    <Text onPress={() => {this._handleIsOpenClickLogin()}}  style={{textAlign:'center',fontSize:18,color:"#fff",marginLeft:0,marginTop:Platform.OS === "ios" ? 15 : 9}} >手机登陆</Text>
-                                </View>
-                            </View>
-                            <View style={{flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 170 : 140}}>
-                                <View style={{backgroundColor:"#16d4f1",borderWidth : 0,borderColor : "#fff",borderRadius : Platform.OS==="ios" ? 40: 50,width : 274,height : 47,overflow:"hidden"}} >
-                                    <Text onPress={() => {this._handleIsOpenClickRegist()}}  style={{textAlign:'center',fontSize:18,color:"#fff",marginLeft:0,marginTop:Platform.OS === "ios" ? 15 : 9}} >手机注册</Text>
-                                </View>
-                            </View>
-                            <View style={{flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 73 : 60}}>
-                                <View style={{backgroundColor:"#020203",borderWidth : 0,borderColor : "#fff",borderRadius : Platform.OS==="ios" ? 40: 50,width : 274,height : 47,overflow:"hidden"}} >
-                                    <Text style={{textAlign:'center',fontSize:16,color:"#797a79",marginLeft:0,marginTop:Platform.OS === "ios" ? 8 : 9}} >其他方式登陆</Text>
-                                </View>
-                            </View>
-                            <View style={{flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 170 : 140}}>
-                                <View style={{
-                                backgroundColor:'rgba(52, 52, 52, 0)',
-                                flexDirection: 'row',
-                                justifyContent: "center",
-                                height: Platform.OS === "ios" ? 170 : 140
-                                }}>
 
-                                    <View style={{width: 100,marginLeft:Platform.OS === "ios" ? 60 : 60  }} >
-                                        <TouchableHighlight underlayColor="rgba(52, 52, 52, 0)" onPress={() => {
-                                        this._handleIsOpenClickWechat()
-                                    }}>
-                                        <Image source={require('./assets/images/weichat.png')}/>
-                                    </TouchableHighlight>
-                                    </View>
-                                    <View style={{width: 100,  }} >
-                                        <TouchableHighlight underlayColor="rgba(52, 52, 52, 0)" onPress={() => {
-                                            this._handleIsOpenClickFacebook()
-                                        }}>
-                                            <Image source={require('./assets/images/facebook.png')}/>
-                                        </TouchableHighlight>
-                                    </View>
-                                </View>
-                            </View>
-                        </View>
-                    );
-                }
+                        // return <RootStack />;
 
             }
         }
@@ -153,18 +112,7 @@ export default class App extends React.Component {
         });
 
     };
-    _handleIsOpenClickLogin = () => {
-        console.log("登陆")
-    };
-    _handleIsOpenClickRegist = () => {
-        console.log("注册")
-    };
-    _handleIsOpenClickWechat = () => {
-        console.log("微信")
-    };
-    _handleIsOpenClickFacebook = () => {
-        console.log("脸书")
-    };
+
 }
 
 const styles = StyleSheet.create({

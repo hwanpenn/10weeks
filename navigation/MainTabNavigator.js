@@ -6,10 +6,28 @@ import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
+import Login from "../screens/Login";
+import Details from "../screens/Details";
+import Home from "../screens/Home";
+import Regist from "../screens/Regist";
+import LoginAndRegist from "../screens/LoginAndRegist";
 
-const HomeStack = createStackNavigator({
-  Home: HomeScreen,
-});
+// const HomeStack = createStackNavigator({
+//     Home: HomeScreen,
+// });
+const HomeStack = createStackNavigator(
+    {
+        // Home: HomeScreen,
+        Home: Home,
+        Details: Details,
+        LoginAndRegist: LoginAndRegist,
+        Login: Login,
+        Regist: Regist,
+    },
+    {
+        initialRouteName: 'Home',
+    }
+);
 
 HomeStack.navigationOptions = {
   tabBarLabel: 'Home',
