@@ -63,7 +63,7 @@ export default class App extends React.Component {
                           <View style={{flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 170 : 140}}>
                               <View style={{backgroundColor:"#16d4f1",borderWidth : 0,borderColor : "#fff",borderRadius : Platform.OS==="ios" ? 40: 50,width : 274,height : 47,overflow:"hidden"}} >
                                   <Text onPress={() => {this._handleIsOpenClick()}}
-                                        style={{textAlign:'center',fontSize:18,color:"#fff",marginLeft:17,marginTop:Platform.OS === "ios" ? 8 : 9}} >现在就加入</Text>
+                                        style={{textAlign:'center',fontSize:18,color:"#fff",marginLeft:17,marginTop:Platform.OS === "ios" ? 15 : 9}} >现在就加入</Text>
                               </View>
                           </View>
                       </View>
@@ -80,19 +80,19 @@ export default class App extends React.Component {
                 }else {
                     return (
                         <View style={styles.loginContainer}>
-                            <View style={{marginTop: Platform.OS === "ios" ? 238 : 196,flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 103 : 85}}>
+                            <View style={{marginTop: Platform.OS === "ios" ? 188 : 196,flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 103 : 85}}>
                                 <View style={{backgroundColor:"#16d4f1",borderWidth : 0,borderColor : "#fff",borderRadius : Platform.OS==="ios" ? 40: 50,width : 274,height : 47,overflow:"hidden"}} >
-                                    <Text onPress={() => {this._handleIsOpenClickLogin()}}  style={{textAlign:'center',fontSize:18,color:"#fff",marginLeft:17,marginTop:Platform.OS === "ios" ? 8 : 9}} >手机登陆</Text>
+                                    <Text onPress={() => {this._handleIsOpenClickLogin()}}  style={{textAlign:'center',fontSize:18,color:"#fff",marginLeft:0,marginTop:Platform.OS === "ios" ? 15 : 9}} >手机登陆</Text>
                                 </View>
                             </View>
                             <View style={{flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 170 : 140}}>
                                 <View style={{backgroundColor:"#16d4f1",borderWidth : 0,borderColor : "#fff",borderRadius : Platform.OS==="ios" ? 40: 50,width : 274,height : 47,overflow:"hidden"}} >
-                                    <Text onPress={() => {this._handleIsOpenClickRegist()}}  style={{textAlign:'center',fontSize:18,color:"#fff",marginLeft:17,marginTop:Platform.OS === "ios" ? 8 : 9}} >手机注册</Text>
+                                    <Text onPress={() => {this._handleIsOpenClickRegist()}}  style={{textAlign:'center',fontSize:18,color:"#fff",marginLeft:0,marginTop:Platform.OS === "ios" ? 15 : 9}} >手机注册</Text>
                                 </View>
                             </View>
                             <View style={{flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 73 : 60}}>
                                 <View style={{backgroundColor:"#020203",borderWidth : 0,borderColor : "#fff",borderRadius : Platform.OS==="ios" ? 40: 50,width : 274,height : 47,overflow:"hidden"}} >
-                                    <Text style={{textAlign:'center',fontSize:16,color:"#797a79",marginLeft:17,marginTop:Platform.OS === "ios" ? 8 : 9}} >其他方式登陆</Text>
+                                    <Text style={{textAlign:'center',fontSize:16,color:"#797a79",marginLeft:0,marginTop:Platform.OS === "ios" ? 8 : 9}} >其他方式登陆</Text>
                                 </View>
                             </View>
                             <View style={{flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 170 : 140}}>
@@ -103,18 +103,18 @@ export default class App extends React.Component {
                                 height: Platform.OS === "ios" ? 170 : 140
                                 }}>
 
-                                    <View style={{width: 100,marginLeft:80  }} >
+                                    <View style={{width: 100,marginLeft:Platform.OS === "ios" ? 60 : 60  }} >
                                         <TouchableHighlight underlayColor="rgba(52, 52, 52, 0)" onPress={() => {
                                         this._handleIsOpenClickWechat()
                                     }}>
-                                        <Image source={require('./assets/images/iconwechat.png')}/>
+                                        <Image source={require('./assets/images/weichat.png')}/>
                                     </TouchableHighlight>
                                     </View>
                                     <View style={{width: 100,  }} >
                                         <TouchableHighlight underlayColor="rgba(52, 52, 52, 0)" onPress={() => {
                                             this._handleIsOpenClickFacebook()
                                         }}>
-                                            <Image source={require('./assets/images/iconfacebook.png')}/>
+                                            <Image source={require('./assets/images/facebook.png')}/>
                                         </TouchableHighlight>
                                     </View>
                                 </View>
