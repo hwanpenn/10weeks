@@ -37,6 +37,9 @@ export default class HomeScreen extends React.Component {
     _handleClickWorkout = () => {
         this.props.navigation.navigate('Workout')
     };
+    _handleClickChat = () => {
+        // this.props.navigation.navigate('Workout')
+    };
 
   render() {
     return (
@@ -46,9 +49,9 @@ export default class HomeScreen extends React.Component {
               {/*<Text onPress={() => {this._handleIsCode()}}  style={{padding:25,textAlign:'center',fontSize:28,color : this.state.isClick === "isCode" ? "#fff" : "#868686",marginLeft:0,marginTop:Platform.OS === "ios" ? 0 : 0}} >验证码登陆</Text>*/}
               <View style={{width: 100,marginLeft:Platform.OS === "ios" ? 80 : 63,marginTop:Platform.OS === "ios" ? 60 : 47  }} >
                   <TouchableHighlight underlayColor="rgba(52, 52, 52, 0)" onPress={() => {
-                      this._handleClickBack()
+                      this._handleClickChat()
                   }}>
-                      <Image source={require('../assets/icons/chaticon.png')}/>
+                      <Image style={{width: 24, height: 24}} source={require('../assets/icons/chaticon.png')}/>
                   </TouchableHighlight>
               </View>
               </View>

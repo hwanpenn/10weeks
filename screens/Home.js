@@ -1,6 +1,7 @@
 import React from 'react';
 import {Platform, StatusBar,View, Text, Button, AsyncStorage, StyleSheet} from 'react-native';
-import AppNavigator from '../navigation/AppNavigator';
+import AppNavigator from '../navigation/Routes';
+// import AppNavigator from '../navigation/AppNavigator';
 import HomeScreen from "./HomeScreen";
 
 class Home extends React.Component {

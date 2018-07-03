@@ -66,10 +66,10 @@ class Regist extends React.Component {
                         </View>
                     </View>
                 </View>
-                <View style={{marginTop: Platform.OS === "ios" ? 0 : 0,flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 67 : 100}}>
-                    <Text onPress={() => {this._handleIsPassword()}}  style={{padding:25,textAlign:'center',fontSize:28,color : this.state.isClick === "isPassword" ? "#fff" : "#868686",marginLeft:0,marginTop:Platform.OS === "ios" ? 0 : 0}} >新用户注册</Text>
-                    {/*<Text onPress={() => {this._handleIsCode()}}  style={{padding:25,textAlign:'center',fontSize:28,color : this.state.isClick === "isCode" ? "#fff" : "#868686",marginLeft:0,marginTop:Platform.OS === "ios" ? 0 : 0}} >验证码登陆</Text>*/}
-                </View>
+                {/*<View style={{marginTop: Platform.OS === "ios" ? 0 : 0,flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 67 : 100}}>*/}
+                    {/*<Text onPress={() => {this._handleIsPassword()}}  style={{padding:25,textAlign:'center',fontSize:28,color : this.state.isClick === "isPassword" ? "#fff" : "#868686",marginLeft:0,marginTop:Platform.OS === "ios" ? 0 : 0}} >新用户注册</Text>*/}
+                    {/*/!*<Text onPress={() => {this._handleIsCode()}}  style={{padding:25,textAlign:'center',fontSize:28,color : this.state.isClick === "isCode" ? "#fff" : "#868686",marginLeft:0,marginTop:Platform.OS === "ios" ? 0 : 0}} >验证码登陆</Text>*!/*/}
+                {/*</View>*/}
 
                 <View style={{flexDirection : "column",justifyContent : "flex-start",height : Platform.OS === "ios" ? 150 : 124}}>
                     <Text   style={{padding:25,textAlign:'left',fontSize:25,color : "#fff" ,marginLeft:Platform.OS === "ios" ? 10 : 6,marginTop:Platform.OS === "ios" ? 0 : -40}} >手机号</Text>

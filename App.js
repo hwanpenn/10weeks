@@ -3,7 +3,8 @@ import { Platform, StatusBar, StyleSheet, View,ScrollView,Image,Dimensions,Text,
 import { AppLoading, Asset, Font, Icon } from 'expo';
 import { AsyncStorage } from "react-native"
 import AppNavigator from './navigation/AppNavigator';
-import RootStack from './src/Routes';
+// import RootStack from './navigation/MainTabNavigator.js';
+import RootStack from './navigation/Routes';
 
 
 export default class App extends React.Component {
@@ -78,7 +79,7 @@ export default class App extends React.Component {
                     return (
                         <View style={styles.container}>
                             {Platform.OS === 'ios' && <StatusBar barStyle="default"/>}
-                            {/*<AppNavigator/>*/}
+                            {/*<AppNavigator />*/}
                             <RootStack />
                         </View>
                     );
