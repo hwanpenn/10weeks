@@ -1,5 +1,7 @@
 import React from 'react';
 import {Platform, StatusBar,View, Text, Button, AsyncStorage, StyleSheet} from 'react-native';
+import AppNavigator from '../navigation/AppNavigator';
+import HomeScreen from "./HomeScreen";
 
 class Home extends React.Component {
     static navigationOptions = {
@@ -10,19 +12,27 @@ class Home extends React.Component {
         AsyncStorage.getItem('userToken')
             .then((value) => {
                 if(value===null){
+                    // proptemp.navigation.navigate('HomeScreen')11
                     proptemp.navigation.navigate('LoginAndRegist')
                     // proptemp.navigation.navigate('Details')
                 }
             })
     }
     render() {
+        // return (
+        //     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        //         <Text>Home Screen333444</Text>
+        //         <Button
+        //             title="Go to Details"
+        //             onPress={() => this.props.navigation.navigate('Details')}
+        //         />
+        //     </View>
+        // );
         return (
-            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-                <Text>Home Screen333444</Text>
-                <Button
-                    title="Go to Details"
-                    onPress={() => this.props.navigation.navigate('Details')}
-                />
+            <View style={styles.container}>
+                {Platform.OS === 'ios' && <StatusBar barStyle="default"/>}
+                <AppNavigator/>
+                {/*<RootStack />*/}
             </View>
         );
     }

@@ -1,78 +1,122 @@
 import React from 'react';
-import { Platform } from 'react-native';
+import { Platform,Image } from 'react-native';
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
 
 import TabBarIcon from '../components/TabBarIcon';
+import Workout from '../screens/Workout';
+import Custom from '../screens/Custom';
+import Punch from '../screens/Punch';
+import Health from '../screens/Health';
+import Video from '../screens/Video';
+import Write from '../screens/Write';
 import HomeScreen from '../screens/HomeScreen';
+import Record from '../screens/Record';
+import Rank from '../screens/Rank';
+import Mine from '../screens/Mine';
 import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
-import Login from "../screens/Login";
 import Details from "../screens/Details";
 import Home from "../screens/Home";
-import Regist from "../screens/Regist";
-import LoginAndRegist from "../screens/LoginAndRegist";
 
 // const HomeStack = createStackNavigator({
 //     Home: HomeScreen,
 // });
 const HomeStack = createStackNavigator(
     {
-        // Home: HomeScreen,
-        Home: Home,
+        HomeScreen: HomeScreen,
+        // Home: Home,
         Details: Details,
-        LoginAndRegist: LoginAndRegist,
-        Login: Login,
-        Regist: Regist,
+        Workout: Workout,
+        Custom: Custom,
+        Punch: Punch,
+        Health: Health,
+        Video: Video,
     },
     {
-        initialRouteName: 'Home',
+        initialRouteName: 'HomeScreen',
     }
 );
 
 HomeStack.navigationOptions = {
-  tabBarLabel: 'Home',
+  tabBarLabel: '首页',
   tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={
-        Platform.OS === 'ios'
-          ? `ios-information-circle${focused ? '' : '-outline'}`
-          : 'md-information-circle'
-      }
-    />
+      <Image
+          source={require('../assets/icons/home.png')}
+          fadeDuration={0}
+          style={{width: 20, height: 20}}
+      />
   ),
 };
 
-const LinksStack = createStackNavigator({
-  Links: LinksScreen,
+const RecordStack = createStackNavigator({
+    Record: Record,
 });
 
-LinksStack.navigationOptions = {
-  tabBarLabel: 'Links',
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={Platform.OS === 'ios' ? `ios-link${focused ? '' : '-outline'}` : 'md-link'}
-    />
+RecordStack.navigationOptions = {
+    tabBarLabel: '记录',
+    tabBarIcon: ({ focused }) => (
+        <Image
+            source={require('../assets/icons/record.png')}
+            fadeDuration={0}
+            style={{width: 20, height: 20}}
+        />
   ),
 };
 
-const SettingsStack = createStackNavigator({
-  Settings: SettingsScreen,
+const AddStack = createStackNavigator({
+    Write: Write,
 });
 
-SettingsStack.navigationOptions = {
-  tabBarLabel: 'Settings',
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={Platform.OS === 'ios' ? `ios-options${focused ? '' : '-outline'}` : 'md-options'}
-    />
+AddStack.navigationOptions = {
+    tabBarLabel: '发布',
+    tabBarIcon: ({ focused }) => (
+        <Image
+            source={require('../assets/icons/write.png')}
+            fadeDuration={0}
+            style={{width: 23, height: 23}}
+        />
+    ),
+};
+
+const RankStack = createStackNavigator({
+    Rank: Rank,
+});
+
+RankStack.navigationOptions = {
+    tabBarLabel: '排行榜',
+    tabBarIcon: ({ focused }) => (
+        <Image
+            source={require('../assets/icons/rank.png')}
+            fadeDuration={0}
+            style={{width: 20, height: 20}}
+        />
+  ),
+};
+const MineStack = createStackNavigator({
+  Mine: Mine,
+});
+
+MineStack.navigationOptions = {
+    tabBarLabel: '我的',
+    tabBarIcon: ({ focused }) => (
+        <Image
+            source={require('../assets/icons/mine.png')}
+            fadeDuration={0}
+            style={{width: 20, height: 20}}
+        />
   ),
 };
 
 export default createBottomTabNavigator({
   HomeStack,
-  LinksStack,
-  SettingsStack,
+    RecordStack,
+    AddStack,
+  RankStack,
+    MineStack,
 });
+
+// export default ({
+//   HomeStack,
+//   LinksStack,
+//   SettingsStack,
+// });

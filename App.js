@@ -7,6 +7,9 @@ import RootStack from './src/Routes';
 
 
 export default class App extends React.Component {
+    // 1334   0.61
+    // 375  812   1.04  1.27
+    // 360  640
     state = {
         isLoadingComplete: false,
         isFirstOpen: false,
