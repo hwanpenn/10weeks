@@ -4,19 +4,23 @@ import { AppLoading, Asset, Font, Icon } from 'expo';
 import { AsyncStorage } from "react-native"
 import AppNavigator from './navigation/AppNavigator';
 import RootStack from './src/Routes';
+import {widthMul,heightMul} from './constants/Layout.js';
 
 
 export default class App extends React.Component {
-    // 1334   0.61
-    // 375  812   1.04  1.27
-    // 360  640
+    static navigationOptions = {
+        header: null,
+    };
     state = {
         isLoadingComplete: false,
+        // isFirstOpen: true,
         isFirstOpen: false,
         // isLogin: true,
     };
 
     async componentWillMount(){
+        console.log(widthMul)
+        console.log((heightMul*95).toFixed(1))
         AsyncStorage.getItem('isFirstOpen')
             .then((value) => {
                 if(value===null){
@@ -64,13 +68,15 @@ export default class App extends React.Component {
                           zIndex: 9999,
                           right: 0
                       }}>
-                        <View style={{flex: 1}}></View>
-                          <View style={{flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 170 : 140}}>
-                              <View style={{backgroundColor:"#16d4f1",borderWidth : 0,borderColor : "#fff",borderRadius : Platform.OS==="ios" ? 40: 50,width : 274,height : 47,overflow:"hidden"}} >
-                                  <Text onPress={() => {this._handleIsOpenClick()}}
-                                        style={{textAlign:'center',fontSize:18,color:"#fff",marginLeft:17,marginTop:Platform.OS === "ios" ? 15 : 9}} >现在就加入</Text>
-                              </View>
+                        <View style={{flex: 1}}/>
+                          <View style={{ flexDirection : "row",justifyContent : "center",height : Platform.OS === "ios" ? 105.5 : 105.5}}>
+                              <TouchableHighlight underlayColor="rgba(52, 52, 52, 0)" onPress={() => {
+                                  this._handleIsOpenClick()
+                              }}>
+                                  <Image style={styles.buttonContainer1} source={require('./assets/button/welcome.png')}/>
+                              </TouchableHighlight>
                           </View>
+
                       </View>
                     </ScrollView>
                 );
@@ -134,6 +140,10 @@ const styles = StyleSheet.create({
         marginLeft: "auto",
         marginRight:"auto",
         width:300,
+    },
+    buttonContainer1: {
+        width: Platform.OS === "ios" ? 271.5 : 271.5,
+        height: Platform.OS === "ios" ? 49 : 271.5,
     },
 });
 const start = StyleSheet.create({

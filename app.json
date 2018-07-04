@@ -8,10 +8,10 @@
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/appicon.png",
+    "icon": "./assets/images/app-icon.png",
     "splash": {
-      "image": "./assets/images/qdy.png",
-      "resizeMode": "contain",
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -21,7 +21,12 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.hwanpenn.tenweekschallenge",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.hwanpenn.tenweekschallenge"
     }
   }
 }
+

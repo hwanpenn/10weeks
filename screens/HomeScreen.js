@@ -48,7 +48,7 @@ export default class HomeScreen extends React.Component {
                   <TouchableHighlight underlayColor="rgba(52, 52, 52, 0)" onPress={() => {
                       this._handleClickBack()
                   }}>
-                      <Image source={require('../assets/icons/chaticon.png')}/>
+                      <Image style={styles.buttonContainer1} source={require('../assets/icons/message.png')}/>
                   </TouchableHighlight>
               </View>
               </View>
@@ -203,6 +203,10 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
   },
+    buttonContainer1: {
+        width: Platform.OS === "ios" ? 24 : 24,
+        height: Platform.OS === "ios" ? 24 : 24,
+    },
   developmentModeText: {
     marginBottom: 20,
     color: 'rgba(0,0,0,0.4)',
