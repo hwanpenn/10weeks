@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/icons/chaticon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/chaticon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navigation/AppNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/AppNavigator.js" afterDir="false" />
@@ -13,6 +14,10 @@
       <change beforePath="$PROJECT_DIR$/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/Regist.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Regist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/Routes.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/navigation/MainTabNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/MainTabNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Login.js" afterDir="false" />
+>>>>>>> parent of 4635f4d... 初版
 =======
       <change beforePath="$PROJECT_DIR$/navigation/MainTabNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/MainTabNavigator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Login.js" afterDir="false" />
@@ -30,6 +35,7 @@
   </component>
   <component name="FileEditorManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.js">
@@ -37,12 +43,17 @@
             <state relative-caret-position="184">
               <caret line="83" column="31" lean-forward="true" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
 =======
+=======
+>>>>>>> parent of 4635f4d... 初版
     <leaf>
       <file leaf-file-name="AppNavigator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/navigation/AppNavigator.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+<<<<<<< HEAD
+>>>>>>> parent of 4635f4d... 初版
+=======
 >>>>>>> parent of 4635f4d... 初版
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -51,6 +62,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="AppNavigator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/navigation/AppNavigator.js">
@@ -61,16 +73,25 @@
       <file leaf-file-name="MainTabNavigator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/navigation/MainTabNavigator.js">
           <provider selected="true" editor-type-id="text-editor">
+=======
+      <file leaf-file-name="MainTabNavigator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/navigation/MainTabNavigator.js">
+          <provider selected="true" editor-type-id="text-editor">
+>>>>>>> parent of 4635f4d... 初版
             <state relative-caret-position="181">
               <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+<<<<<<< HEAD
+>>>>>>> parent of 4635f4d... 初版
+=======
 >>>>>>> parent of 4635f4d... 初版
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="Routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/navigation/Routes.js">
@@ -88,6 +109,13 @@
             <state relative-caret-position="120">
               <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
 >>>>>>> parent of 4635f4d... 初版
+=======
+      <file leaf-file-name="TabBarIcon.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/TabBarIcon.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+>>>>>>> parent of 4635f4d... 初版
             </state>
           </provider>
         </entry>
@@ -96,9 +124,12 @@
         <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="390">
               <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
 =======
+=======
+>>>>>>> parent of 4635f4d... 初版
             <state relative-caret-position="196">
               <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="33" selection-end-column="5" />
               <folding>
@@ -110,11 +141,19 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/screens/Home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+=======
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+>>>>>>> parent of 4635f4d... 初版
 =======
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App.js">
@@ -130,17 +169,23 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="Regist.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screens/Regist.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="975">
               <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
 =======
+=======
+>>>>>>> parent of 4635f4d... 初版
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screens/Home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+<<<<<<< HEAD
+>>>>>>> parent of 4635f4d... 初版
+=======
 >>>>>>> parent of 4635f4d... 初版
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -150,12 +195,15 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="MainTabNavigator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/navigation/MainTabNavigator.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
               <caret line="13" column="38" lean-forward="true" selection-end-line="132" />
 =======
+=======
+>>>>>>> parent of 4635f4d... 初版
       <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screens/Login.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -170,17 +218,23 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="HomeScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screens/HomeScreen.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="740">
               <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
 =======
+=======
+>>>>>>> parent of 4635f4d... 初版
       <file leaf-file-name="LoginAndRegist.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screens/LoginAndRegist.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+<<<<<<< HEAD
+>>>>>>> parent of 4635f4d... 初版
+=======
 >>>>>>> parent of 4635f4d... 初版
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -189,6 +243,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="app-icon.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/images/app-icon.png">
@@ -215,10 +270,27 @@
       <file leaf-file-name="Regist.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screens/Regist.js">
           <provider selected="true" editor-type-id="text-editor">
+=======
+      <file leaf-file-name="LoginCode.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screens/LoginCode.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Regist.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screens/Regist.js">
+          <provider selected="true" editor-type-id="text-editor">
+>>>>>>> parent of 4635f4d... 初版
             <state relative-caret-position="105">
               <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+<<<<<<< HEAD
+>>>>>>> parent of 4635f4d... 初版
+=======
 >>>>>>> parent of 4635f4d... 初版
               </folding>
             </state>
@@ -233,6 +305,7 @@
       <find>StyleSheet</find>
       <find>TouchableHighlight</find>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <find>style</find>
       <find>RecordStack</find>
       <find>RankStack</find>
@@ -242,6 +315,8 @@
       <find>Login</find>
       <find>Regist</find>
       <find>AppNavigator</find>
+=======
+>>>>>>> parent of 4635f4d... 初版
 =======
 >>>>>>> parent of 4635f4d... 初版
     </findStrings>
@@ -259,6 +334,7 @@
         <option value="$PROJECT_DIR$/screens/LoginCode.js" />
         <option value="$PROJECT_DIR$/screens/Regist.js" />
         <option value="$PROJECT_DIR$/screens/LoginAndRegist.js" />
+<<<<<<< HEAD
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/screens/Login.js" />
         <option value="$PROJECT_DIR$/screens/record.js" />
@@ -283,10 +359,15 @@
         <option value="$PROJECT_DIR$/navigation/Routes.js" />
         <option value="$PROJECT_DIR$/screens/Home.js" />
 =======
+=======
+>>>>>>> parent of 4635f4d... 初版
         <option value="$PROJECT_DIR$/screens/Home.js" />
         <option value="$PROJECT_DIR$/navigation/MainTabNavigator.js" />
         <option value="$PROJECT_DIR$/src/Routes.js" />
         <option value="$PROJECT_DIR$/App.js" />
+<<<<<<< HEAD
+>>>>>>> parent of 4635f4d... 初版
+=======
 >>>>>>> parent of 4635f4d... 初版
       </list>
     </option>
@@ -336,6 +417,7 @@
               <item name="10weeks" type="b2602c69:ProjectViewProjectNode" />
               <item name="10weeks" type="462c0819:PsiDirectoryNode" />
 <<<<<<< HEAD
+<<<<<<< HEAD
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -357,6 +439,8 @@
             <path>
               <item name="10weeks" type="b2602c69:ProjectViewProjectNode" />
               <item name="10weeks" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> parent of 4635f4d... 初版
 =======
 >>>>>>> parent of 4635f4d... 初版
               <item name="screens" type="462c0819:PsiDirectoryNode" />
@@ -385,8 +469,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/icons" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/images" />
+=======
+>>>>>>> parent of 4635f4d... 初版
 =======
 >>>>>>> parent of 4635f4d... 初版
       <recent name="$PROJECT_DIR$/screens" />
@@ -417,10 +504,14 @@
       <option name="presentableId" value="Default" />
       <updated>1530544550171</updated>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1530544551592" duration="14481000" />
       <workItem from="1530580413427" duration="27352000" />
       <workItem from="1530616522745" duration="3075000" />
       <workItem from="1530627646623" duration="6609000" />
+=======
+      <workItem from="1530544551592" duration="14355000" />
+>>>>>>> parent of 4635f4d... 初版
 =======
       <workItem from="1530544551592" duration="14355000" />
 >>>>>>> parent of 4635f4d... 初版
@@ -429,10 +520,17 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="51517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="14355000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+>>>>>>> parent of 4635f4d... 初版
 =======
     <option name="totallyTimeSpent" value="14355000" />
   </component>
@@ -450,8 +548,12 @@
       <window_info id="npm" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
+=======
+      <window_info anchor="bottom" id="Terminal" visible="true" />
+>>>>>>> parent of 4635f4d... 初版
 =======
       <window_info anchor="bottom" id="Terminal" visible="true" />
 >>>>>>> parent of 4635f4d... 初版
@@ -463,7 +565,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 4635f4d... 初版
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
 >>>>>>> parent of 4635f4d... 初版
       <window_info anchor="bottom" id="Message" order="0" />
@@ -484,8 +589,11 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/navigation/Routes.js">
 =======
+=======
+>>>>>>> parent of 4635f4d... 初版
     <entry file="file://$PROJECT_DIR$/screens/LinksScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -497,6 +605,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screens/SettingsScreen.js">
+<<<<<<< HEAD
+>>>>>>> parent of 4635f4d... 初版
+=======
 >>>>>>> parent of 4635f4d... 初版
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -524,9 +635,12 @@
     <entry file="file://$PROJECT_DIR$/screens/Details.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="75">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
 =======
+=======
+>>>>>>> parent of 4635f4d... 初版
         <state relative-caret-position="90">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding>
@@ -539,9 +653,12 @@
     <entry file="file://$PROJECT_DIR$/screens/Login.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="30">
           <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
 =======
+=======
+>>>>>>> parent of 4635f4d... 初版
         <state relative-caret-position="105">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding>
@@ -571,6 +688,7 @@
     <entry file="file://$PROJECT_DIR$/screens/LoginAndRegist.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
+<<<<<<< HEAD
 <<<<<<< HEAD
           <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
@@ -738,12 +856,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+=======
+          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/screens/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation/AppNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation/MainTabNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+>>>>>>> parent of 4635f4d... 初版
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/navigation/MainTabNavigator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -766,13 +918,24 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/components/TabBarIcon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+>>>>>>> parent of 4635f4d... 初版
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screens/HomeScreen.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="740">
           <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+=======
+        <state relative-caret-position="196">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="33" selection-end-column="5" />
+>>>>>>> parent of 4635f4d... 初版
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -785,6 +948,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -815,6 +979,12 @@
         <state relative-caret-position="196">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="33" selection-end-column="5" />
 >>>>>>> parent of 4635f4d... 初版
+=======
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+>>>>>>> parent of 4635f4d... 初版
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#470#505#0" expanded="true" />
@@ -822,6 +992,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -848,6 +1019,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> parent of 4635f4d... 初版
 =======
 >>>>>>> parent of 4635f4d... 初版
   </component>
