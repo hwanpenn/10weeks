@@ -19,8 +19,6 @@ export default class App extends React.Component {
     };
 
     async componentWillMount(){
-        console.log(widthMul)
-        console.log((heightMul*95).toFixed(1))
         AsyncStorage.getItem('isFirstOpen')
             .then((value) => {
                 if(value===null){
